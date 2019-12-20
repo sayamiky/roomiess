@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+//login 
+Route::get('/login','AuthController@login');
+Route::post('/proseslogin','AuthController@proseslogin');
+Route::get('/logout','AuthController@logout');
+
+Route::get('/dashboards','DashboardController@dashboard');
+//Form
+Route::get('/pegawai','PegawaiController@pegawai');
