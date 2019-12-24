@@ -192,7 +192,7 @@ nav a {
 }
 .brands a {
   color: #333;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   opacity: 1;
   text-decoration: none;
@@ -598,6 +598,140 @@ background: #111112 !important;
 background: #111112;
 color: #ffffff;
 }
+
+.filter-wrapper {
+    width: 100%;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.filter-wrapper li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.filter-wrapper li a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 8px 17px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.filter-wrapper li a:active {
+  background: #111112 !important;
+}
+.filter-wrapper li a:hover,
+.filter-wrapper li a:focus {
+  background: #111112;
+  color: #ffffff;
+}
+
+.filter-wrappers {
+  width: 70%;
+  margin-bottom: 32px;
+  overflow: hidden;
+}
+
+.filter-wrappers li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.filter-wrappers li a {
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 8px 17px;
+  margin-right: 2px;
+  margin-left: 2px;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.filter-wrappers li a:active {
+background: #111112 !important;
+}
+.filter-wrappers li a:hover,
+.filter-wrappers li a:focus {
+background: #111112;
+color: #ffffff;
+}
+
+/*Menu*/
+.filter-wrappersz {
+  width: 100%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.filter-wrappersz li {
+  display: inline-block;
+  margin: 4px;
+}
+
+.filter-wrappersz li a {
+  color: #666;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 8px 17px;
+  margin-right: 2px;
+  margin-left: 2px;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.filter-wrappersz li a:active {
+background: #111112 !important;
+}
+.filter-wrappersz li a:hover,
+.filter-wrappersz li a:focus {
+background: #111112;
+color: #ffffff;
+}
+
+.filter-wrappersz {
+width: 70%;
+margin-bottom: 32px;
+overflow: hidden;
+}
+
+.filter-wrappersz li {
+display: inline-block;
+margin: 4px;
+}
+
+.filter-wrappersz li a {
+color: #666;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 2px;
+padding: 8px 17px;
+margin-right: 2px;
+margin-left: 2px;
+text-transform: uppercase;
+display: block;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+}
+.filter-wrappersz li a:active {
+background: #111112 !important;
+}
+.filter-wrappersz li a:hover,
+.filter-wrappersz li a:focus {
+background: #111112;
+color: #ffffff;
+}
+
 
 /*isotope box css*/
 .iso-box-section {

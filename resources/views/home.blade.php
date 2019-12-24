@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-      <link rel="icon" type="image/png" sizes="96x96" href="{{asset('rooms/images/logo.png')}}">
 <head>
 
 	<meta charset="utf-8">
@@ -33,7 +32,7 @@
 	<!-- Google web font 
    ================================================== -->	
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-	
+  <link rel="icon" type="image/png" sizes="96x96" href="{{asset('rooms/images/image.png')}}">
 </head>
 <body>
 
@@ -57,36 +56,22 @@
             <div class="row">
 
               <div class="brand">
-                <a href="index.html">Pure Mix</a>
+                <a href="">Roomies</a>
               </div>
 
-              
-            <div class="brands">
-               <a href="/login">Login / </a>
-               <a href="/register">Register</a>  
-            </div>
+               <div class="brands">
+                  <a href="/login">Sign In</a> 
+               </div>
 
-              <!-- <div class="navicon">
-                <div class="menu-container">
-                     <div class="brand">
+              <center>
+                 {{-- blm responsive --}}
+               <div class="brandmenu">
+                 <ul class="filter-wrappersz clearfix">
+                   <li><a href="/find" class="selected opc-main-bg">Find Yours</a></li>
+                   <li><a href="/blog" class="opc-main-bg">Blog</a></li>
+                   <li><a href="/promotion" class="opc-main-bg">Promotion</a></li>
               </div>
-                  <div class="circle dark inline">
-                    <i class="icon ion-navicon"></i>
-                  </div>
-
-                  <div class="list-menu">
-                    <i class="icon ion-close-round close-iframe"></i>
-                    <div class="intro-inner">
-                      <ul id="nav-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-              </div> -->
+              </center>
 
             </div>
          </div>
@@ -100,8 +85,32 @@
 ================================================== -->
 <section id="header" class="header-one">
 	<div class="container">
+      {{-- pencarian blm responsive--}}
+      <form method="POST" action="">
+         <div class="row mb-3">
+           <div class="col-sm-8">
+               <div class="form-group">
+                   <input type="text" placeholder="Lokasi" name="lokasi" id="lokasi" class="form-control">
+               </div>
+           </div>
+           <div class="col-sm-3">
+            <div class="form-group">
+                <select name="kategori" id="kategori" class="form-control">
+                    <option value="">Kategori Ruangan</option>
+                    <option value="Ruang Meeting">Ruang Meeting</option>
+                    <option value="Ruang Pertemuan">Ruang Pertemuan</option>
+                    <option value="Ruang Perjamuan">Ruang Perjamuan</option>
+                </select>
+            </div>
+        </div>
+           <div class="col-sm-0">
+               <button id="search" name="search" class="btn btn-warning">Temukan</button>
+           </div>
+       </div>
+    </form>
+    <br>
+    {{-- end --}}
 		<div class="row">
-
 			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
           <div class="header-thumb">
               <h1 class="wow fadeIn" data-wow-delay="1.6s">Our Rooms</h1>
@@ -225,9 +234,32 @@
 <footer>
 	<div class="container">
 		<div class="row">
-
+         <div class="col-sm-6">
+            <img src="{{url('rooms/images/images.png')}}" size="200x200" class="img-responsive" alt="Portfolio">
+            <br><br><br>
+         </div>
+         <div class="col-sm-3">
+            <h4 align="left">Tentang Roomies</h4>
+            <p align="left">Ketentuan Pemesanan</p>
+            <p align="left">Kebijakan Privasi</p>
+            <p align="left">Tentang Kami</p>
+            <p align="left">Hubungi Kami</p>
+            <p align="left">FAQ</p>
+         </div>
+         <div class="col-sm-3">
+            <h4 align="left">Kegunaan</h4>
+            <p align="left">Ruang Meeting</p>
+            <p align="left">Ruang Pertemuan</p>
+            <p align="left">Gala Dinner</p>
+            <p align="left">Reception Ballroom</p>
+            <p align="left">Seminar</p>
+            <p align="left">Workshop</p>
+            <p align="left">Graduation</p>
+            <p align="left">Shooting</p>
+            <p align="left"><a href=""><u>Lihat Semua</u></a></p>
+         </div>
 			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2016 Your Company Name - Designed by Tooplate</p>
+				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2019 Roomies</p>
 				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
 					<li><a href="#" class="fa fa-facebook"></a></li>
 					<li><a href="#" class="fa fa-twitter"></a></li>

@@ -5,7 +5,7 @@
   <title>Roomies</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="{{asset('loginuser/style.css')}}">
-
+  <link rel="icon" type="image/png" sizes="96x96" href="{{asset('rooms/images/image.png')}}">
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -25,7 +25,7 @@
       <input name="password" type="password" value="thisispassword"/>
     </label>
     <p class="forgot-pass"><a href="" style="text-decoration: none; color: #cfcfcf;">Forgot password?</a></p> 
-    <button type="submit" class="submit">Sign In</button>
+    <button type="submit" class="submit">Sign in</button>
   </div>
   </form>
   <div class="sub-cont">
@@ -40,7 +40,7 @@
         <p>If you already has an account, just sign in. We've missed you!</p>
       </div>
       <div class="img__btn">
-        <span class="m--up">Sign Up</span>
+        <span class="m--up">Sign up</span>
         <span class="m--in">Sign In</span>
       </div>
     </div>
